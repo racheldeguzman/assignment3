@@ -1,0 +1,33 @@
+.cis260specialgreen {
+    color:black;
+    font-family:monospace;
+}
+body {
+    background-image: url("http://gourmetvegetariankitchen.com/wp-content/uploads/2018/04/bubble-tea-without-tea.jpg");
+    background-size:cover;
+    background-position:center;
+    height: 100vh;
+}
+a {
+    color:azure;
+    font-family: monospace;
+    font-size: large;
+}
+q {
+    color:azure;
+    font-family:monospace;
+}
+div {
+    width:500px;
+    margin-left: 50px;
+    padding:0px 10px;
+}
+
+footer {
+    position: fixed;
+    height: 20px;
+    bottom: 0px;
+    left: 20px;
+    right: 0px;
+    margin-bottom: 5px;
+}
