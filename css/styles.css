@@ -17,11 +17,6 @@ q {
     color:azure;
     font-family:monospace;
 }
-div {
-    width:500px;
-    margin-left: 50px;
-    padding:0px 10px;
-}
 
 footer {
     position: fixed;
