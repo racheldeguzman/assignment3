@@ -26,3 +26,11 @@ footer {
     right: 0px;
     margin-bottom: 5px;
 }
+header{
+    display:flex;
+    align-items:center
+}
+@media screen and (max-width:40rem){
+    header{flex-direction:column;
+    }
+}
