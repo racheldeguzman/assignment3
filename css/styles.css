@@ -4,9 +4,10 @@
 }
 body {
     background-image: url("http://gourmetvegetariankitchen.com/wp-content/uploads/2018/04/bubble-tea-without-tea.jpg");
+/*    background-image: linear-gradient(rgba(229, 15, 15, 0.2),rgba (0,0,0,0.9);*/
     background-size:cover;
     background-position:center;
-    height: 100vh;
+    min-height: 100vh;
 }
 a {
     color:azure;
@@ -33,4 +34,12 @@ header{
 @media screen and (max-width:40rem){
     header{flex-direction:column;
     }
+}
+h1 { 
+    border: 2px solid #ff0000;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #FFFFFF;
+    border-color:#cfe3f4;
+    background-color:#FFFFFF; opacity:0.9;
+    background-image: linear-gradient(#ffffff, #beeaf7);
 }
