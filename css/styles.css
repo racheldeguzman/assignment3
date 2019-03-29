@@ -19,14 +19,6 @@ q {
     font-family:monospace;
 }
 
-footer {
-    position: fixed;
-    height: 20px;
-    bottom: 0px;
-    left: 20px;
-    right: 0px;
-    margin-bottom: 5px;
-}
 header{
     display:flex;
     align-items:center
@@ -36,10 +28,27 @@ header{
     }
 }
 h1 { 
+    Display:flex;
+    justify-content:center;
+    align-items:center;
+    Padding: 30px;
     border: 2px solid #ff0000;
     border-radius: 20px;
     box-shadow: 2px 2px 2px #FFFFFF;
     border-color:#cfe3f4;
-    background-color:#FFFFFF; opacity:0.9;
-    background-image: linear-gradient(#ffffff, #beeaf7);
+    background-color:#FFFFFF; opacity:0.7;
+    background-image: linear-gradient(#ffffff, azure);
+}
+div{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:center;
+    padding:2px 2px;
+    margin:20px;   
+}
+.logodiv{
+    display:flex;
+    flex-direction:row;
+    padding:20px;
 }
